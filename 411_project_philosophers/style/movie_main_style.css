@@ -1,0 +1,96 @@
+.user_information {
+  display: flex;
+}
+
+/* .grid-item {
+  text-align: center;
+  margin: 10px 20px;
+} */
+
+div.Reviews {
+  border: 1px solid black;
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+/* .subject {
+  float: none;
+  width: auto;
+  display: block;
+  position: relative;
+  margin-bottom: 15px;
+} */
+
+.subject {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  line-height: 1.62;
+}
+
+.movie_title {
+  font-size: 36px;
+  padding: 0px 0px 15px 0px;
+}
+
+.movie_image {
+  float: left;
+  margin-top: 3px;
+  width: 195px;
+  height: 291px;
+  overflow: hidden;
+}
+
+/* #info {
+  float: left;
+  max-width: 333px;
+  word-wrap: break-word;
+  font-size: 13px;
+} */
+
+#info {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  min-width: 0;
+}
+
+.meta_abstract {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  display: block;
+  font-size: 18px;
+}
+
+.attrs {
+  float:left;
+  margin-left: 3px;
+  max-width: 248px;
+  word-wrap: break-word;
+  font-size: 18px;
+}
+
+.pl {
+  font: 18px Arial, Helvetica, sans-serif;
+  line-height: 150%;
+  float: left;
+  color: #666666;
+}
+
+.introduction {
+  border: 1px solid black;
+  max-height: 120px;
+  overflow-y: scroll;
+}
+
+.compose_review {
+  display: inline;
+}
+
+#submit_review {
+  float: right;
+}

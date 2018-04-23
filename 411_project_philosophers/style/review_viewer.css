@@ -1,0 +1,44 @@
+.main_viewer{
+  margin-top: 70px;
+  margin-bottom: 100px;
+  min-height: 440px;
+}
+
+.viewer-wrap{
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 10px;
+  overflow: hidden;
+}
+
+.review_viewer_title h2{
+  font-family: sans-serif;
+}
+
+.review_user_info{
+  margin-bottom: 15px;
+}
+
+.profile_img{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+#user_name{
+
+}
+
+#date{
+  float: right;
+  color: #999;
+  font-size: 15px;
+}
+
+#content{
+  min-height: 200px
+}
+
+.review_viewer_control{
+  float:right;
+}

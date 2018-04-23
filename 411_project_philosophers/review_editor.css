@@ -1,0 +1,61 @@
+.major {
+  margin: auto;
+  width: 60%;
+  margin-top: 40px;
+}
+
+#review_title, #content{
+  width: 100%;
+}
+
+#review_title {
+  overflow: hidden;
+  height: 50px;
+  font-size: 1.8em;
+  padding-left: 20px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+#content {
+  overflow-y: scroll;
+  height: 600px;
+  font-size: 1.2em;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  resize: none;
+}
+
+.term1 {
+  width: 100%;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.term2 {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.term3 {
+  margin-left: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.term3 button {
+  font-size: 1.4em;
+}
+
+.btn-link {
+  color: #6e8094;
+}
